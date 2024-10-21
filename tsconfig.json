@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",         // Enable ES module imports
+      "target": "ES6",            // Target ECMAScript 6 or later
+      "esModuleInterop": true,    // Interoperability between CommonJS and ES modules
+      "moduleResolution": "node", // Node.js style module resolution
+      "outDir": "dist",           // Specify output directory for compiled files
+      "strict": true,             // Enable strict type-checking
+      "skipLibCheck": true        // Skip checking type definitions
+    },
+    "include": ["./app.ts"],      // Specify your TypeScript file
+    "exclude": ["node_modules"]
+  }
+  
